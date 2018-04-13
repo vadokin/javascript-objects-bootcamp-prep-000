@@ -3,3 +3,7 @@ var playlist = {
   'Pharrell Williams': 'Happy',
   'Michael Jackson': "Don’t Stop 'Til You Get Enough"
 }
+
+function updatePlaylist(playlist, artistName, songTitle) {
+  playlist[artistName] = songTitle
+}
